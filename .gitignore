@@ -1,6 +1,17 @@
+# .gitignore
+
+# Linker files
 *.o
 *.a
+
+# Binaries
 config_parser_test
 config_parser
-config_parser.dSYM/
+
+# Mac specific
+*.dSYM
 .DS_Store
+
+# Vim
+*~
+*.swp
